@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(43, 43, 80);
+}
+
+.perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+}
+
+.info-personal{
+    color: rgb(241, 156, 156);
+    text-align: center;
+    margin: 80px;
+}
+
+.info-personal h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.info-personal p{
+    text-align: justify;
+}
+
+span{
+    color: rgb(211, 54, 54);
+}
+
+ul{
+    background-color: rgb(10, 10, 29);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    list-style: none;
+}
+
+li{
+    margin: 0 20px; 
+    color: white;
+    padding: 5px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+
+a:hover{
+    color: red;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px;
+    padding: 40px;
+    background-color: #ceb589;
+}
+
+
+.full{
+    width: 100%;
+}
+
+
+.left{
+    width: 48%;
+}
+
+.right{
+    width: 48%;
+    
+}
+
+
+.card{
+    background: #e6d3b3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.experiencia{
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(10, 10, 29);
+}
+
+.proyectos{
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(10, 10, 29);
+}
+
+.redes{
+    align-items: center;
+    margin-left: 40%;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    background-color: rgb(10, 10, 29);
+    text-align: center;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    text-align: center;
+}
+
